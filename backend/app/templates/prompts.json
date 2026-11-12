@@ -1,0 +1,301 @@
+{
+  "_note": "Fixed agent wording. Referral and disclosure lines are fixed-protocol text and must be reviewed by a health professional and a native speaker before real use. Numbers are always spelled out by the backend before synthesis (Gnani TTS guidance).",
+  "disclosure": {
+    "en": "Hello, I am ASHA Vaani, an AI assistant, not a person. I will help you record this visit. I do not give diagnosis or treatment advice. Please tell me the beneficiary ID, visit type, weight, vaccines and next visit date.",
+    "hi": "नमस्ते, मैं आशा वाणी हूँ, एक एआई सहायक, कोई इंसान नहीं। मैं यह विज़िट दर्ज करने में आपकी मदद करूँगी। मैं बीमारी की पहचान या इलाज की सलाह नहीं देती। कृपया लाभार्थी आईडी, विज़िट का प्रकार, वज़न, टीके और अगली विज़िट की तारीख बताइए।",
+    "kn": "ನಮಸ್ಕಾರ, ನಾನು ಆಶಾ ವಾಣಿ, ಒಂದು ಎಐ ಸಹಾಯಕ, ಮನುಷ್ಯರಲ್ಲ. ಈ ಭೇಟಿಯನ್ನು ದಾಖಲಿಸಲು ನಾನು ಸಹಾಯ ಮಾಡುತ್ತೇನೆ. ನಾನು ರೋಗನಿರ್ಣಯ ಅಥವಾ ಚಿಕಿತ್ಸೆಯ ಸಲಹೆ ನೀಡುವುದಿಲ್ಲ. ದಯವಿಟ್ಟು ಫಲಾನುಭವಿ ಐಡಿ, ಭೇಟಿಯ ಪ್ರಕಾರ, ತೂಕ, ಲಸಿಕೆಗಳು ಮತ್ತು ಮುಂದಿನ ಭೇಟಿಯ ದಿನಾಂಕ ಹೇಳಿ."
+  },
+  "ack": {
+    "en": "Okay, one moment.",
+    "hi": "ठीक है, एक पल।",
+    "kn": "ಸರಿ, ಒಂದು ಕ್ಷಣ."
+  },
+  "readback_intro": {
+    "en": "Please check.",
+    "hi": "कृपया जाँच लीजिए।",
+    "kn": "ದಯವಿಟ್ಟು ಪರಿಶೀಲಿಸಿ."
+  },
+  "f_id": {
+    "en": "Beneficiary ID {digits}",
+    "hi": "लाभार्थी आईडी {digits}",
+    "kn": "ಫಲಾನುಭವಿ ಐಡಿ {digits}"
+  },
+  "f_name": {
+    "en": "{name}",
+    "hi": "{name}",
+    "kn": "{name}"
+  },
+  "f_visit_type": {
+    "en": "Visit: {type}",
+    "hi": "विज़िट: {type}",
+    "kn": "ಭೇಟಿ: {type}"
+  },
+  "f_weight": {
+    "en": "Weight {w} kilo",
+    "hi": "वज़न {w} किलो",
+    "kn": "ತೂಕ {w} ಕಿಲೋ"
+  },
+  "f_vac_given": {
+    "en": "Vaccines given: {list}",
+    "hi": "लगे टीके: {list}",
+    "kn": "ನೀಡಿದ ಲಸಿಕೆಗಳು: {list}"
+  },
+  "f_vac_due": {
+    "en": "Vaccines due: {list}",
+    "hi": "बाकी टीके: {list}",
+    "kn": "ಬಾಕಿ ಲಸಿಕೆಗಳು: {list}"
+  },
+  "f_ifa_yes": {
+    "en": "IFA tablets given",
+    "hi": "आई एफ ए गोली दी गई",
+    "kn": "ಐ ಎಫ್ ಎ ಮಾತ್ರೆ ನೀಡಲಾಗಿದೆ"
+  },
+  "f_ifa_no": {
+    "en": "IFA tablets not given",
+    "hi": "आई एफ ए गोली नहीं दी गई",
+    "kn": "ಐ ಎಫ್ ಎ ಮಾತ್ರೆ ನೀಡಿಲ್ಲ"
+  },
+  "f_next_visit": {
+    "en": "Next visit {date}",
+    "hi": "अगली विज़िट {date}",
+    "kn": "ಮುಂದಿನ ಭೇಟಿ {date}"
+  },
+  "f_visit_date": {
+    "en": "Visit date {date}",
+    "hi": "विज़िट की तारीख {date}",
+    "kn": "ಭೇಟಿಯ ದಿನಾಂಕ {date}"
+  },
+  "f_referral": {
+    "en": "Referral flagged: {signs}",
+    "hi": "रेफ़रल दर्ज: {signs}",
+    "kn": "ರೆಫರಲ್ ಗುರುತಿಸಲಾಗಿದೆ: {signs}"
+  },
+  "please_confirm": {
+    "en": "please confirm",
+    "hi": "कृपया पक्का कीजिए",
+    "kn": "ದಯವಿಟ್ಟು ಖಚಿತಪಡಿಸಿ"
+  },
+  "not_heard": {
+    "en": "{field} not heard",
+    "hi": "{field} सुनाई नहीं दिया",
+    "kn": "{field} ಕೇಳಿಸಲಿಲ್ಲ"
+  },
+  "confirm_q": {
+    "en": "Is this correct? Say yes to save, or tell me what to change.",
+    "hi": "क्या यह सही है? सेव करने के लिए हाँ बोलिए, या बताइए क्या बदलना है।",
+    "kn": "ಇದು ಸರಿಯೇ? ಸೇವ್ ಮಾಡಲು ಹೌದು ಎನ್ನಿ, ಅಥವಾ ಏನು ಬದಲಾಯಿಸಬೇಕು ಹೇಳಿ."
+  },
+  "ask_beneficiary_id": {
+    "en": "What is the beneficiary ID? Please say the digits.",
+    "hi": "लाभार्थी आईडी क्या है? कृपया अंक बोलिए।",
+    "kn": "ಫಲಾನುಭವಿ ಐಡಿ ಏನು? ದಯವಿಟ್ಟು ಅಂಕೆಗಳನ್ನು ಹೇಳಿ."
+  },
+  "ask_id_suggest": {
+    "en": "Is the beneficiary ID {digits}, {name}? Say yes or no.",
+    "hi": "क्या लाभार्थी आईडी {digits} है, {name}? हाँ या नहीं बोलिए।",
+    "kn": "ಫಲಾನುಭವಿ ಐಡಿ {digits}, {name} ಆಗಿದೆಯೇ? ಹೌದು ಅಥವಾ ಇಲ್ಲ ಎನ್ನಿ."
+  },
+  "ask_name_ambiguous": {
+    "en": "More than one beneficiary is named {name}. Please say the ID.",
+    "hi": "{name} नाम के एक से ज़्यादा लाभार्थी हैं। कृपया आईडी बोलिए।",
+    "kn": "{name} ಹೆಸರಿನ ಒಬ್ಬರಿಗಿಂತ ಹೆಚ್ಚು ಫಲಾನುಭವಿಗಳಿದ್ದಾರೆ. ದಯವಿಟ್ಟು ಐಡಿ ಹೇಳಿ."
+  },
+  "ask_visit_type": {
+    "en": "Which visit is this: A N C, P N C, newborn or immunisation?",
+    "hi": "यह कौन सी विज़िट है: ए एन सी, पी एन सी, नवजात शिशु या टीकाकरण?",
+    "kn": "ಇದು ಯಾವ ಭೇಟಿ: ಎ ಎನ್ ಸಿ, ಪಿ ಎನ್ ಸಿ, ನವಜಾತ ಶಿಶು ಅಥವಾ ಲಸಿಕಾಕರಣ?"
+  },
+  "ask_weight_kg": {
+    "en": "What is the weight in kilos? Or say skip.",
+    "hi": "वज़न कितने किलो है? या स्किप बोलिए।",
+    "kn": "ತೂಕ ಎಷ್ಟು ಕಿಲೋ? ಅಥವಾ ಸ್ಕಿಪ್ ಎನ್ನಿ."
+  },
+  "ask_next_visit_date": {
+    "en": "When is the next visit? Or say skip.",
+    "hi": "अगली विज़िट कब है? या स्किप बोलिए।",
+    "kn": "ಮುಂದಿನ ಭೇಟಿ ಯಾವಾಗ? ಅಥವಾ ಸ್ಕಿಪ್ ಎನ್ನಿ."
+  },
+  "ask_which_field": {
+    "en": "Which detail should I correct: ID, visit type, weight, vaccines or next visit date?",
+    "hi": "कौन सी जानकारी सुधारूँ: आईडी, विज़िट का प्रकार, वज़न, टीके या अगली विज़िट की तारीख?",
+    "kn": "ಯಾವ ವಿವರ ಸರಿಪಡಿಸಲಿ: ಐಡಿ, ಭೇಟಿಯ ಪ್ರಕಾರ, ತೂಕ, ಲಸಿಕೆಗಳು ಅಥವಾ ಮುಂದಿನ ಭೇಟಿಯ ದಿನಾಂಕ?"
+  },
+  "corrected": {
+    "en": "Updated. {phrase}.",
+    "hi": "बदल दिया। {phrase}।",
+    "kn": "ಬದಲಾಯಿಸಲಾಗಿದೆ. {phrase}."
+  },
+  "undo_done": {
+    "en": "Undone. {phrase}.",
+    "hi": "पहले जैसा कर दिया। {phrase}।",
+    "kn": "ಹಿಂದಿನಂತೆ ಮಾಡಲಾಗಿದೆ. {phrase}."
+  },
+  "nothing_to_undo": {
+    "en": "There is nothing to undo.",
+    "hi": "वापस करने के लिए कुछ नहीं है।",
+    "kn": "ಹಿಂತೆಗೆಯಲು ಏನೂ ಇಲ್ಲ."
+  },
+  "now_correct_q": {
+    "en": "Is everything correct now?",
+    "hi": "क्या अब सब सही है?",
+    "kn": "ಈಗ ಎಲ್ಲಾ ಸರಿಯೇ?"
+  },
+  "not_understood": {
+    "en": "Sorry, I did not catch that. Please say it again.",
+    "hi": "माफ़ कीजिए, मैं समझ नहीं पाई। कृपया फिर से बोलिए।",
+    "kn": "ಕ್ಷಮಿಸಿ, ನನಗೆ ಅರ್ಥವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಹೇಳಿ."
+  },
+  "skip_ok": {
+    "en": "Okay, left empty.",
+    "hi": "ठीक है, खाली छोड़ दिया।",
+    "kn": "ಸರಿ, ಖಾಲಿ ಬಿಡಲಾಗಿದೆ."
+  },
+  "need_id_before_save": {
+    "en": "I need the beneficiary ID and visit type before saving.",
+    "hi": "सेव करने से पहले लाभार्थी आईडी और विज़िट का प्रकार चाहिए।",
+    "kn": "ಸೇವ್ ಮಾಡುವ ಮೊದಲು ಫಲಾನುಭವಿ ಐಡಿ ಮತ್ತು ಭೇಟಿಯ ಪ್ರಕಾರ ಬೇಕು."
+  },
+  "saved": {
+    "en": "Saved. Next actions: {actions}",
+    "hi": "सेव हो गया। अगले काम: {actions}",
+    "kn": "ಸೇವ್ ಆಗಿದೆ. ಮುಂದಿನ ಕೆಲಸಗಳು: {actions}"
+  },
+  "save_failed": {
+    "en": "The record is not saved yet. It is kept as pending. Please try again.",
+    "hi": "रिकॉर्ड अभी सेव नहीं हुआ है। इसे पेंडिंग रखा गया है। कृपया फिर से कोशिश कीजिए।",
+    "kn": "ದಾಖಲೆ ಇನ್ನೂ ಸೇವ್ ಆಗಿಲ್ಲ. ಇದನ್ನು ಬಾಕಿ ಇರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "danger_alert_mother": {
+    "en": "Danger sign: {signs}. Please refer her to the P H C or nearest hospital now.",
+    "hi": "खतरे का संकेत: {signs}। कृपया उन्हें अभी पी एच सी या नज़दीकी अस्पताल रेफ़र कीजिए।",
+    "kn": "ಅಪಾಯದ ಲಕ್ಷಣ: {signs}. ದಯವಿಟ್ಟು ಅವರನ್ನು ಈಗಲೇ ಪಿ ಎಚ್ ಸಿ ಅಥವಾ ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆಗೆ ರೆಫರ್ ಮಾಡಿ."
+  },
+  "danger_alert_baby": {
+    "en": "Danger sign: {signs}. Please refer the baby to the P H C or nearest hospital now.",
+    "hi": "खतरे का संकेत: {signs}। कृपया बच्चे को अभी पी एच सी या नज़दीकी अस्पताल रेफ़र कीजिए।",
+    "kn": "ಅಪಾಯದ ಲಕ್ಷಣ: {signs}. ದಯವಿಟ್ಟು ಮಗುವನ್ನು ಈಗಲೇ ಪಿ ಎಚ್ ಸಿ ಅಥವಾ ಹತ್ತಿರದ ಆಸ್ಪತ್ರೆಗೆ ರೆಫರ್ ಮಾಡಿ."
+  },
+  "danger_confirm_q": {
+    "en": "I heard something about {sign}. Is this happening now? Say yes or no.",
+    "hi": "मैंने {sign} के बारे में सुना। क्या यह अभी हो रहा है? हाँ या नहीं बोलिए।",
+    "kn": "ನಾನು {sign} ಬಗ್ಗೆ ಕೇಳಿದೆ. ಇದು ಈಗ ಆಗುತ್ತಿದೆಯೇ? ಹೌದು ಅಥವಾ ಇಲ್ಲ ಎನ್ನಿ."
+  },
+  "danger_not_flagged": {
+    "en": "Okay, not flagged.",
+    "hi": "ठीक है, दर्ज नहीं किया।",
+    "kn": "ಸರಿ, ಗುರುತಿಸಿಲ್ಲ."
+  },
+  "danger_review": {
+    "en": "I could not confirm it, so the record is marked for review by the ANM.",
+    "hi": "पक्का नहीं हो सका, इसलिए रिकॉर्ड ए एन एम की जाँच के लिए चिह्नित किया गया है।",
+    "kn": "ಖಚಿತವಾಗಲಿಲ್ಲ, ಆದ್ದರಿಂದ ದಾಖಲೆಯನ್ನು ಎ ಎನ್ ಎಂ ಪರಿಶೀಲನೆಗೆ ಗುರುತಿಸಲಾಗಿದೆ."
+  },
+  "no_advice": {
+    "en": "I cannot give diagnosis, medicine or dosage advice. Please follow the P H C protocol.",
+    "hi": "मैं बीमारी, दवा या खुराक की सलाह नहीं दे सकती। कृपया पी एच सी के प्रोटोकॉल का पालन कीजिए।",
+    "kn": "ನಾನು ರೋಗ, ಔಷಧಿ ಅಥವಾ ಡೋಸೇಜ್ ಸಲಹೆ ನೀಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಪಿ ಎಚ್ ಸಿ ಪ್ರೋಟೋಕಾಲ್ ಅನುಸರಿಸಿ."
+  },
+  "visit_types": {
+    "ANC": {
+      "en": "A N C",
+      "hi": "ए एन सी",
+      "kn": "ಎ ಎನ್ ಸಿ"
+    },
+    "PNC": {
+      "en": "P N C",
+      "hi": "पी एन सी",
+      "kn": "ಪಿ ಎನ್ ಸಿ"
+    },
+    "NEWBORN": {
+      "en": "newborn",
+      "hi": "नवजात शिशु",
+      "kn": "ನವಜಾತ ಶಿಶು"
+    },
+    "IMMUNISATION": {
+      "en": "immunisation",
+      "hi": "टीकाकरण",
+      "kn": "ಲಸಿಕಾಕರಣ"
+    }
+  },
+  "field_names": {
+    "beneficiary_id": {
+      "en": "Beneficiary ID",
+      "hi": "लाभार्थी आईडी",
+      "kn": "ಫಲಾನುಭವಿ ಐಡಿ"
+    },
+    "visit_type": {
+      "en": "Visit type",
+      "hi": "विज़िट का प्रकार",
+      "kn": "ಭೇಟಿಯ ಪ್ರಕಾರ"
+    },
+    "weight_kg": {
+      "en": "Weight",
+      "hi": "वज़न",
+      "kn": "ತೂಕ"
+    },
+    "next_visit_date": {
+      "en": "Next visit",
+      "hi": "अगली विज़िट",
+      "kn": "ಮುಂದಿನ ಭೇಟಿ"
+    }
+  },
+  "followups": {
+    "referral": {
+      "en": "Urgent: complete the P H C referral today",
+      "hi": "ज़रूरी: आज ही पी एच सी रेफ़रल पूरा कीजिए",
+      "kn": "ತುರ್ತು: ಇಂದೇ ಪಿ ಎಚ್ ಸಿ ರೆಫರಲ್ ಪೂರ್ಣಗೊಳಿಸಿ"
+    },
+    "review": {
+      "en": "Review the unclear danger-sign mention with the A N M today",
+      "hi": "अस्पष्ट खतरे के संकेत को आज ए एन एम के साथ देखिए",
+      "kn": "ಅಸ್ಪಷ್ಟ ಅಪಾಯದ ಲಕ್ಷಣವನ್ನು ಇಂದು ಎ ಎನ್ ಎಂ ಜೊತೆ ಪರಿಶೀಲಿಸಿ"
+    },
+    "next_visit": {
+      "en": "Next {type} visit",
+      "hi": "अगली {type} विज़िट",
+      "kn": "ಮುಂದಿನ {type} ಭೇಟಿ"
+    },
+    "vaccines_due": {
+      "en": "Vaccines due: {list}",
+      "hi": "बाकी टीके: {list}",
+      "kn": "ಬಾಕಿ ಲಸಿಕೆಗಳು: {list}"
+    },
+    "schedule": {
+      "en": "Next visit date not recorded: schedule it",
+      "hi": "अगली विज़िट की तारीख दर्ज नहीं: तय कीजिए",
+      "kn": "ಮುಂದಿನ ಭೇಟಿಯ ದಿನಾಂಕ ದಾಖಲಾಗಿಲ್ಲ: ನಿಗದಿ ಮಾಡಿ"
+    },
+    "weight": {
+      "en": "Weight not recorded: record it at the next visit",
+      "hi": "वज़न दर्ज नहीं: अगली विज़िट पर दर्ज कीजिए",
+      "kn": "ತೂಕ ದಾಖಲಾಗಿಲ್ಲ: ಮುಂದಿನ ಭೇಟಿಯಲ್ಲಿ ದಾಖಲಿಸಿ"
+    },
+    "next_visit_spoken": {
+      "en": "Next {type} visit on {date}",
+      "hi": "अगली {type} विज़िट {date} को",
+      "kn": "ಮುಂದಿನ {type} ಭೇಟಿ {date} ರಂದು"
+    }
+  },
+  "visit_types_display": {
+    "ANC": {
+      "en": "ANC",
+      "hi": "ANC",
+      "kn": "ANC"
+    },
+    "PNC": {
+      "en": "PNC",
+      "hi": "PNC",
+      "kn": "PNC"
+    },
+    "NEWBORN": {
+      "en": "newborn",
+      "hi": "नवजात",
+      "kn": "ನವಜಾತ"
+    },
+    "IMMUNISATION": {
+      "en": "immunisation",
+      "hi": "टीकाकरण",
+      "kn": "ಲಸಿಕಾಕರಣ"
+    }
+  }
+}

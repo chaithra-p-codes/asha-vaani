@@ -1,0 +1,66 @@
+id,language,category,noise,context,kind,utterance
+E01,en,anc,clean,,extract,ANC checkup for beneficiary 1024. Weight is 52 kilos. TT injection recorded. IFA goli given. Next visit is on 20 November.
+E02,hi,anc,clean,,extract,"लाभार्थी आईडी एक शून्य दो चार, एएनसी चेकअप, वज़न बावन किलो, टीटी का इंजेक्शन लगा, आयरन की गोली दी, अगली विज़िट बीस नवंबर"
+E03,hi-en,anc,clean,,extract,"Beneficiary 1050 ka ANC checkup hua, vajan 61 kilo, IFA goli di, TT 2 lag gaya, agli visit 2 December"
+E04,kn,anc,clean,,extract,"ಫಲಾನುಭವಿ ಸಂಖ್ಯೆ 1007, ಎಎನ್‌ಸಿ ಭೇಟಿ, ತೂಕ ಐವತ್ತೆರಡು ಕೆಜಿ, ಐಎಫ್‌ಎ ಮಾತ್ರೆ ಕೊಟ್ಟಿದೆ, ಮುಂದಿನ ಭೇಟಿ ನವೆಂಬರ್ 25"
+E05,kn-en,anc,clean,,extract,"Beneficiary ID 1012, ANC checkup aaytu, weight 48 kg, TT injection kottide, next visit ನಾಳೆ"
+E06,en,pnc,clean,,extract,"PNC visit for beneficiary 1019, weight 55.5 kg, IFA tablets given, next visit next Monday"
+E07,hi,pnc,clean,,extract,"डिलीवरी के बाद की विज़िट, आईडी 1063, वज़न पचपन किलो, अगली विज़िट परसों"
+E08,hi-en,newborn,clean,,extract,"Newborn visit, beneficiary 1042, baby ka weight do point aath kilo, BCG aur OPV zero diya, Penta 1 due hai, agli visit ek hafte baad"
+E09,en,newborn,clean,,extract,"Newborn visit for ID 1064, weight 2800 grams, hepatitis B given, next visit in 7 days"
+E10,kn,newborn,clean,,extract,"ನವಜಾತ ಶಿಶು ಭೇಟಿ, ಐಡಿ 1103, ತೂಕ ಎರಡೂವರೆ ಕೆಜಿ, ಬಿಸಿಜಿ ಹಾಕಲಾಗಿದೆ"
+E11,hi,newborn,clean,,extract,"नवजात शिशु विज़िट, आईडी 1042, वज़न ढाई किलो, अगली विज़िट 14 तारीख"
+E12,en,immunisation,clean,,extract,"Immunisation visit for beneficiary 1081, Penta 2 and Rota 2 given, OPV 2 given, MR due, weight 6.2 kg, next date 9 December"
+E13,hi-en,immunisation,clean,,extract,"Teekakaran visit, ID 1125, measles ka tika laga, vitamin A diya, vajan saadhe aath kilo"
+E14,en,ids,clean,,extract,"ANC for beneficiary one zero five zero, weight fifty eight kilo"
+E15,hi,ids,clean,,extract,"लाभार्थी नंबर एक हज़ार उनसठ नहीं, एक शून्य नौ शून्य, एएनसी, वज़न चौवन किलो"
+E16,en,ids,clean,,extract,"ID ten fifteen, ANC visit, weight sixty point five kilo"
+E17,en,decimal,clean,,extract,Newborn visit 1103 weight two point nine five kg
+E18,hi-en,decimal,clean,,extract,"PNC visit 1102, weight sava pachas nahi, pachas point do kilo"
+E19,en,names,clean,,extract,"Sunita Kumari, ANC visit, weight 49 kg"
+E20,hi-en,names,clean,,extract,"Sunita ka ANC checkup, weight 50 kilo"
+E21,en,dates,clean,,extract,"ANC 1077 weight 63 kg, next visit after 15 days"
+E22,hi,dates,clean,,extract,"एएनसी, आईडी 1118, अगली विज़िट अगले सोमवार"
+E23,en,missing,clean,,extract,weight 50 kilo
+E24,en,missing,clean,,extract,"ANC visit for 1130, IFA given"
+E25,hi-en,medterms,clean,,extract,"1015 ka ANC, MCP card check kiya, IFA goli nahi di, TT booster lagna hai"
+N01,hi-en,anc,noisy,,extract,umm haan toh beneficiary uh 1024 ka ANC checkup arre beta chup karo weight weight 52 kilo TT injection lag gaya next visit 20 November
+N02,en,newborn,noisy,,extract,newborn visit for for beneficiary 1042 the TV is on weight is uh 2.8 kilo BCG given
+N03,hi,anc,noisy,,extract,अच्छा सुनो लाभार्थी आईडी 1050 एएनसी वजन इकसठ किलो हाँ इकसठ आयरन की गोली दी
+N04,kn-en,pnc,noisy,,extract,ಸರಿ ಸರಿ PNC visit beneficiary 1019 ಹಾ weight 56 kg next visit ನವೆಂಬರ್ 30
+N05,hi-en,immunisation,noisy,,extract,immunisation hai ji 1081 penta teen diya bachcha ro raha tha weight saat kilo
+N06,en,anc,noisy,,extract,ok so ANC ANC visit beneficiary 1012 weight 47 47 kg ifa given next visit tomorrow
+C01,en,correction,clean,,correct,"No, weight is 54 kilos"
+C02,en,correction,clean,,correct,"no, weight is 2.8 kilo"
+C03,hi,correction,clean,,correct,"नहीं, वज़न चौवन किलो है"
+C04,hi-en,correction,clean,,correct,"ID galat hai, 1025 hai"
+C05,en,correction,clean,,correct,"No, it is a PNC visit"
+C06,hi-en,correction,clean,,correct,next visit 22 November karo
+C07,kn,correction,clean,,correct,"ಇಲ್ಲ, ತೂಕ ಐವತ್ನಾಲ್ಕು ಕೆಜಿ"
+C08,en,correction,clean,weight_kg,correct,"No, 54"
+C09,en,correction,clean,,correct,"No, 54"
+C10,hi-en,correction,clean,,correct,OPV nahi diya
+C11,en,undo,clean,,correct,undo that
+C12,hi,undo,clean,,correct,पहले वाला करो
+C13,hi,confirm,clean,,correct,"हाँ, सही है"
+C14,kn,confirm,clean,,correct,ಹೌದು ಸರಿ
+C15,hi-en,confirm,clean,,correct,sahi nahi hai
+C16,hi-en,guardrail,clean,,correct,bukhar ke liye kaunsi dawai du?
+D01,hi-en,danger_pos,clean,ANC,danger,"ANC visit 1024, bleeding ho rahi hai"
+D02,hi,danger_pos,clean,ANC,danger,गर्भवती को खून आ रहा है
+D03,hi-en,danger_pos,clean,NEWBORN,danger,"Newborn 1042, baby ko tez bukhar hai"
+D04,kn,danger_pos,clean,NEWBORN,danger,"ಮಗುವಿಗೆ ಜ್ವರ ಇದೆ, ಹಾಲು ಕುಡಿಯುತ್ತಿಲ್ಲ"
+D05,en,danger_pos,clean,ANC,danger,She has blurred vision and fits since morning
+D06,hi-en,danger_pos,clean,ANC,danger,paani ki thaili phat gayi aur bachcha kam hil raha hai
+D07,hi,danger_pos,clean,PNC,danger,डिलीवरी के बाद बहुत ज़्यादा खून जा रहा है
+D08,en,danger_pos,clean,NEWBORN,danger,baby has yellow palms and soles and is very lethargic
+D09,hi-en,danger_pos,noisy,NEWBORN,danger,arre haan baby ko saans lene mein dikkat hai uh pasli chal rahi hai
+D10,hi-en,danger_pos,clean,ANC,danger,bleeding ruk nahi rahi
+D11,hi-en,danger_neg,clean,ANC,danger,"ANC visit, bleeding nahi hai, bukhar bhi nahi hai"
+D12,kn,danger_neg,clean,ANC,danger,"ರಕ್ತಸ್ರಾವ ಇಲ್ಲ, ಜ್ವರ ಇಲ್ಲ"
+D13,en,danger_neg,clean,NEWBORN,danger,"no fever, baby is feeding well"
+D14,hi,danger_neg,clean,ANC,danger,"खून की जांच हुई, रिपोर्ट ठीक है"
+D15,hi-en,danger_unc,clean,ANC,danger,bukhar hai
+D16,hi-en,danger_unc,clean,ANC,danger,pata nahi bleeding hai ya nahi
+D17,hi-en,danger_unc,clean,ANC,danger,pichhli pregnancy mein bleeding hui thi
+D18,hi-en,danger_multi,clean,ANC,danger,khoon aa raha hai aur tez bukhar bhi hai

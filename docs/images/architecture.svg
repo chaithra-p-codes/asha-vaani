@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 640" font-family="Noto Sans, Roboto, Arial, sans-serif">
+  <rect width="1300" height="640" fill="#F7F9F7"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#20312A"/></marker></defs>
+  <text x="40" y="44" font-size="24" font-weight="700" fill="#20312A">ASHA Vaani: live voice loop (WebSocket streaming end to end)</text>
+  <!-- phone -->
+  <rect x="40" y="80" width="270" height="500" rx="22" fill="#fff" stroke="#DCE5DF" stroke-width="2"/>
+  <text x="62" y="114" font-size="18" font-weight="700" fill="#236447">Android browser PWA</text>
+  <g font-size="14" fill="#20312A">
+    <rect x="60" y="132" width="230" height="58" rx="10" fill="#E6F1EA"/><text x="74" y="156">Mic → AudioWorklet</text><text x="74" y="176" fill="#65756D">16 kHz PCM16, 512-sample frames</text>
+    <rect x="60" y="202" width="230" height="58" rx="10" fill="#E6F1EA"/><text x="74" y="226">Client VAD + pre-roll</text><text x="74" y="246" fill="#65756D">barge-in, level meter, TTFA</text>
+    <rect x="60" y="272" width="230" height="58" rx="10" fill="#E6F1EA"/><text x="74" y="296">PCM player</text><text x="74" y="316" fill="#65756D">gapless, instant stop</text>
+    <rect x="60" y="342" width="230" height="58" rx="10" fill="#E6F1EA"/><text x="74" y="366">Register sheet UI</text><text x="74" y="386" fill="#65756D">review · correct · confirm</text>
+    <rect x="60" y="412" width="230" height="58" rx="10" fill="#E6F1EA"/><text x="74" y="436">Encrypted pending draft</text><text x="74" y="456" fill="#65756D">WebCrypto AES-GCM (offline)</text>
+    <text x="62" y="510" fill="#65756D">hi · kn · en UI · 360 px</text><text x="62" y="532" fill="#65756D">no typing in the visit flow</text>
+  </g>
+  <!-- backend -->
+  <rect x="380" y="80" width="470" height="500" rx="22" fill="#fff" stroke="#236447" stroke-width="2"/>
+  <text x="402" y="114" font-size="18" font-weight="700" fill="#236447">Python ASGI backend (Starlette + Pydantic)</text>
+  <g font-size="14" fill="#20312A">
+    <rect x="400" y="132" width="430" height="44" rx="10" fill="#E6F1EA"/><text x="414" y="160">Session manager · explicit state machine · audit log</text>
+    <rect x="400" y="188" width="205" height="62" rx="10" fill="#F7F9F7" stroke="#DCE5DF"/><text x="414" y="212">Endpointing</text><text x="414" y="232" fill="#65756D">server VAD + Prisma events</text>
+    <rect x="625" y="188" width="205" height="62" rx="10" fill="#F7F9F7" stroke="#DCE5DF"/><text x="639" y="212">Extraction</text><text x="639" y="232" fill="#65756D">rules + grounded Gemini</text>
+    <rect x="400" y="262" width="205" height="62" rx="10" fill="#F7F9F7" stroke="#DCE5DF"/><text x="414" y="286">Validation</text><text x="414" y="306" fill="#65756D">ranges, register, dates</text>
+    <rect x="625" y="262" width="205" height="62" rx="10" fill="#FDEDEB" stroke="#B42318"/><text x="639" y="286" fill="#B42318" font-weight="700">Danger rules</text><text x="639" y="306" fill="#65756D">MCP 2018 list + negation</text>
+    <rect x="400" y="336" width="205" height="62" rx="10" fill="#F7F9F7" stroke="#DCE5DF"/><text x="414" y="360">Template read-back</text><text x="414" y="380" fill="#65756D">numbers spelled out</text>
+    <rect x="625" y="336" width="205" height="62" rx="10" fill="#F7F9F7" stroke="#DCE5DF"/><text x="639" y="360">Voice corrections</text><text x="639" y="380" fill="#65756D">patch · undo · yes/no</text>
+    <rect x="400" y="410" width="205" height="62" rx="10" fill="#F7F9F7" stroke="#DCE5DF"/><text x="414" y="434">Idempotent save</text><text x="414" y="454" fill="#65756D">only after explicit yes</text>
+    <rect x="625" y="410" width="205" height="62" rx="10" fill="#F7F9F7" stroke="#DCE5DF"/><text x="639" y="434">Follow-up rules</text><text x="639" y="454" fill="#65756D">deterministic, no schedules</text>
+    <rect x="400" y="484" width="430" height="44" rx="10" fill="#20312A"/><text x="414" y="512" fill="#fff">SQLite · AES-256-GCM payloads · 72 h retention · delete endpoint</text>
+    <text x="402" y="560" fill="#65756D">Keys stay server-side; secondary key only if authorised</text>
+  </g>
+  <!-- gnani -->
+  <rect x="1020" y="80" width="240" height="230" rx="22" fill="#fff" stroke="#DCE5DF" stroke-width="2"/>
+  <text x="1042" y="114" font-size="18" font-weight="700" fill="#236447">Gnani API Platform</text>
+  <g font-size="14" fill="#20312A">
+    <rect x="1040" y="132" width="200" height="72" rx="10" fill="#E6F1EA"/><text x="1054" y="156" font-weight="700">Prisma v3.0 STT</text><text x="1054" y="176" fill="#65756D">wss · hi-IN,en-IN codemix</text><text x="1054" y="194" fill="#65756D">keyterms · VAD headers</text>
+    <rect x="1040" y="218" width="200" height="72" rx="10" fill="#E6F1EA"/><text x="1054" y="242" font-weight="700">Timbre v3.0 TTS</text><text x="1054" y="262" fill="#65756D">wss · voice Chetana</text><text x="1054" y="280" fill="#65756D">raw PCM 24 kHz, streamed</text>
+  </g>
+  <rect x="1020" y="340" width="240" height="100" rx="22" fill="#fff" stroke="#DCE5DF" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="1042" y="372" font-size="16" font-weight="700" fill="#20312A">Optional LLM (Gemini)</text>
+  <text x="1042" y="396" font-size="14" fill="#65756D">JSON candidates with evidence;</text><text x="1042" y="416" font-size="14" fill="#65756D">never decides danger signs</text>
+  <!-- arrows -->
+  <g stroke="#20312A" stroke-width="2.2" fill="none" marker-end="url(#a)">
+    <path d="M310 170 L380 170"/><path d="M380 300 L310 300"/>
+    <path d="M850 160 L1040 160"/><path d="M1040 186 L850 186"/>
+    <path d="M1040 254 L850 254"/><path d="M850 230 L1040 230"/>
+    <path d="M850 300 C930 320 980 370 1020 385"/>
+  </g>
+  <g font-size="13" fill="#20312A">
+    <text x="316" y="160">WS: PCM</text><text x="318" y="322" font-size="12">events +</text><text x="318" y="338" font-size="12">TTS audio</text>
+    <text x="866" y="150">PCM audio frames</text><text x="866" y="204">final transcripts</text><text x="866" y="222">read-back text</text><text x="866" y="274">base64 PCM chunks</text><text x="866" y="404">evidence-checked JSON</text>
+  </g>
+  <text x="40" y="618" font-size="14" fill="#65756D">No telephony, no WebRTC, no hosted agent platform. Every arrow above is a WebSocket except the optional HTTPS LLM call.</text>
+</svg>

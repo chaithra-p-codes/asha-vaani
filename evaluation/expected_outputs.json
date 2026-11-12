@@ -1,0 +1,390 @@
+{
+ "E01": {
+  "beneficiary_id": "1024",
+  "visit_type": "ANC",
+  "weight_kg": 52,
+  "vaccinations_given": [
+   "TT/Td"
+  ],
+  "ifa_tablets_given": true,
+  "next_visit_date": "2026-11-20"
+ },
+ "E02": {
+  "beneficiary_id": "1024",
+  "visit_type": "ANC",
+  "weight_kg": 52,
+  "vaccinations_given": [
+   "TT/Td"
+  ],
+  "ifa_tablets_given": true,
+  "next_visit_date": "2026-11-20"
+ },
+ "E03": {
+  "beneficiary_id": "1050",
+  "visit_type": "ANC",
+  "weight_kg": 61,
+  "vaccinations_given": [
+   "TT/Td-2"
+  ],
+  "ifa_tablets_given": true,
+  "next_visit_date": "2026-12-02"
+ },
+ "E04": {
+  "beneficiary_id": "1007",
+  "visit_type": "ANC",
+  "weight_kg": 52,
+  "ifa_tablets_given": true,
+  "next_visit_date": "2026-11-25"
+ },
+ "E05": {
+  "beneficiary_id": "1012",
+  "visit_type": "ANC",
+  "weight_kg": 48,
+  "vaccinations_given": [
+   "TT/Td"
+  ],
+  "next_visit_date": "2026-11-12"
+ },
+ "E06": {
+  "beneficiary_id": "1019",
+  "visit_type": "PNC",
+  "weight_kg": 55.5,
+  "ifa_tablets_given": true,
+  "next_visit_date": "2026-11-16"
+ },
+ "E07": {
+  "beneficiary_id": "1063",
+  "visit_type": "PNC",
+  "weight_kg": 55,
+  "next_visit_date": "2026-11-13"
+ },
+ "E08": {
+  "beneficiary_id": "1042",
+  "visit_type": "NEWBORN",
+  "weight_kg": 2.8,
+  "vaccinations_given": [
+   "BCG",
+   "OPV-0"
+  ],
+  "vaccinations_due": [
+   "Pentavalent-1"
+  ],
+  "next_visit_date": "2026-11-18"
+ },
+ "E09": {
+  "beneficiary_id": "1064",
+  "visit_type": "NEWBORN",
+  "weight_kg": 2.8,
+  "vaccinations_given": [
+   "Hepatitis B"
+  ],
+  "next_visit_date": "2026-11-18"
+ },
+ "E10": {
+  "beneficiary_id": "1103",
+  "visit_type": "NEWBORN",
+  "weight_kg": 2.5,
+  "vaccinations_given": [
+   "BCG"
+  ]
+ },
+ "E11": {
+  "beneficiary_id": "1042",
+  "visit_type": "NEWBORN",
+  "weight_kg": 2.5,
+  "next_visit_date": "2026-11-14"
+ },
+ "E12": {
+  "beneficiary_id": "1081",
+  "visit_type": "IMMUNISATION",
+  "weight_kg": 6.2,
+  "vaccinations_given": [
+   "Pentavalent-2",
+   "Rotavirus-2",
+   "OPV-2"
+  ],
+  "vaccinations_due": [
+   "MR"
+  ],
+  "next_visit_date": "2026-12-09"
+ },
+ "E13": {
+  "beneficiary_id": "1125",
+  "visit_type": "IMMUNISATION",
+  "weight_kg": 8.5,
+  "vaccinations_given": [
+   "MR",
+   "Vitamin A"
+  ]
+ },
+ "E14": {
+  "beneficiary_id": "1050",
+  "visit_type": "ANC",
+  "weight_kg": 58
+ },
+ "E15": {
+  "beneficiary_id": "1090",
+  "visit_type": "ANC",
+  "weight_kg": 54
+ },
+ "E16": {
+  "beneficiary_id": "1015",
+  "visit_type": "ANC",
+  "weight_kg": 60.5
+ },
+ "E17": {
+  "beneficiary_id": "1103",
+  "visit_type": "NEWBORN",
+  "weight_kg": 2.95
+ },
+ "E18": {
+  "beneficiary_id": "1102",
+  "visit_type": "PNC",
+  "weight_kg": 50.2
+ },
+ "E19": {
+  "beneficiary_name": "Sunita Kumari",
+  "visit_type": "ANC",
+  "weight_kg": 49
+ },
+ "E20": {
+  "visit_type": "ANC",
+  "weight_kg": 50,
+  "_notes": [
+   "ambiguous_name"
+  ]
+ },
+ "E21": {
+  "beneficiary_id": "1077",
+  "visit_type": "ANC",
+  "weight_kg": 63,
+  "next_visit_date": "2026-11-26"
+ },
+ "E22": {
+  "beneficiary_id": "1118",
+  "visit_type": "ANC",
+  "next_visit_date": "2026-11-16"
+ },
+ "E23": {
+  "weight_kg": 50
+ },
+ "E24": {
+  "beneficiary_id": "1130",
+  "visit_type": "ANC",
+  "ifa_tablets_given": true
+ },
+ "E25": {
+  "beneficiary_id": "1015",
+  "visit_type": "ANC",
+  "ifa_tablets_given": false,
+  "vaccinations_due": [
+   "TT/Td booster"
+  ]
+ },
+ "N01": {
+  "beneficiary_id": "1024",
+  "visit_type": "ANC",
+  "weight_kg": 52,
+  "vaccinations_given": [
+   "TT/Td"
+  ],
+  "next_visit_date": "2026-11-20"
+ },
+ "N02": {
+  "beneficiary_id": "1042",
+  "visit_type": "NEWBORN",
+  "weight_kg": 2.8,
+  "vaccinations_given": [
+   "BCG"
+  ]
+ },
+ "N03": {
+  "beneficiary_id": "1050",
+  "visit_type": "ANC",
+  "weight_kg": 61,
+  "ifa_tablets_given": true
+ },
+ "N04": {
+  "beneficiary_id": "1019",
+  "visit_type": "PNC",
+  "weight_kg": 56,
+  "next_visit_date": "2026-11-30"
+ },
+ "N05": {
+  "beneficiary_id": "1081",
+  "visit_type": "IMMUNISATION",
+  "vaccinations_given": [
+   "Pentavalent-3"
+  ],
+  "weight_kg": 7
+ },
+ "N06": {
+  "beneficiary_id": "1012",
+  "visit_type": "ANC",
+  "weight_kg": 47,
+  "ifa_tablets_given": true,
+  "next_visit_date": "2026-11-12"
+ },
+ "C01": {
+  "kind": "PATCH",
+  "field": "weight_kg",
+  "value": 54
+ },
+ "C02": {
+  "kind": "PATCH",
+  "field": "weight_kg",
+  "value": 2.8
+ },
+ "C03": {
+  "kind": "PATCH",
+  "field": "weight_kg",
+  "value": 54
+ },
+ "C04": {
+  "kind": "PATCH",
+  "field": "beneficiary_id",
+  "value": "1025"
+ },
+ "C05": {
+  "kind": "PATCH",
+  "field": "visit_type",
+  "value": "PNC"
+ },
+ "C06": {
+  "kind": "PATCH",
+  "field": "next_visit_date",
+  "value": "2026-11-22"
+ },
+ "C07": {
+  "kind": "PATCH",
+  "field": "weight_kg",
+  "value": 54
+ },
+ "C08": {
+  "kind": "BARE",
+  "field": "weight_kg",
+  "value": 54
+ },
+ "C09": {
+  "kind": "BARE",
+  "field": null
+ },
+ "C10": {
+  "kind": "PATCH",
+  "remove": "OPV"
+ },
+ "C11": {
+  "kind": "UNDO"
+ },
+ "C12": {
+  "kind": "UNDO"
+ },
+ "C13": {
+  "kind": "YES"
+ },
+ "C14": {
+  "kind": "YES"
+ },
+ "C15": {
+  "kind": "NO"
+ },
+ "C16": {
+  "kind": "ADVICE"
+ },
+ "D01": {
+  "positive": [
+   "PREG_BLEEDING"
+  ]
+ },
+ "D02": {
+  "positive": [
+   "PREG_BLEEDING"
+  ]
+ },
+ "D03": {
+  "positive": [
+   "NB_FEVER_OR_COLD"
+  ]
+ },
+ "D04": {
+  "positive": [
+   "NB_FEVER_OR_COLD",
+   "NB_POOR_FEEDING"
+  ]
+ },
+ "D05": {
+  "positive": [
+   "PREG_HEADACHE_BLURRED_VISION",
+   "CONVULSIONS"
+  ]
+ },
+ "D06": {
+  "positive": [
+   "PREG_WATER_BREAK",
+   "PREG_REDUCED_FETAL_MOVEMENT"
+  ]
+ },
+ "D07": {
+  "positive": [
+   "PNC_EXCESSIVE_BLEEDING"
+  ]
+ },
+ "D08": {
+  "positive": [
+   "NB_YELLOW_SKIN",
+   "NB_LETHARGIC_UNCONSCIOUS"
+  ]
+ },
+ "D09": {
+  "positive": [
+   "NB_DIFFICULT_BREATHING"
+  ]
+ },
+ "D10": {
+  "positive": [
+   "PREG_BLEEDING"
+  ]
+ },
+ "D11": {
+  "positive": [],
+  "negated": [
+   "PREG_BLEEDING"
+  ]
+ },
+ "D12": {
+  "positive": [],
+  "negated": [
+   "PREG_BLEEDING"
+  ]
+ },
+ "D13": {
+  "positive": []
+ },
+ "D14": {
+  "positive": []
+ },
+ "D15": {
+  "positive": [],
+  "uncertain": [
+   "MATERNAL_HIGH_FEVER"
+  ]
+ },
+ "D16": {
+  "positive": [],
+  "uncertain": [
+   "PREG_BLEEDING"
+  ]
+ },
+ "D17": {
+  "positive": [],
+  "uncertain": [
+   "PREG_BLEEDING"
+  ]
+ },
+ "D18": {
+  "positive": [
+   "PREG_BLEEDING",
+   "MATERNAL_HIGH_FEVER"
+  ]
+ }
+}

@@ -1,0 +1,1523 @@
+{
+ "generated_at": "2026-11-11 15:32:29",
+ "today_fixed": "2026-11-11",
+ "mode": "offline transcript-level",
+ "summary": {
+  "utterances": 65,
+  "field_accuracy_clean": {
+   "fields": 101,
+   "correct": 101,
+   "accuracy": 1.0
+  },
+  "field_accuracy_noisy_text": {
+   "fields": 26,
+   "correct": 26,
+   "accuracy": 1.0
+  },
+  "number_accuracy": {
+   "fields": 72,
+   "correct": 72,
+   "accuracy": 1.0
+  },
+  "field_accuracy_by_language": {
+   "en": {
+    "fields": 51,
+    "correct": 51,
+    "accuracy": 1.0
+   },
+   "hi": {
+    "fields": 24,
+    "correct": 24,
+    "accuracy": 1.0
+   },
+   "hi-en": {
+    "fields": 34,
+    "correct": 34,
+    "accuracy": 1.0
+   },
+   "kn": {
+    "fields": 9,
+    "correct": 9,
+    "accuracy": 1.0
+   },
+   "kn-en": {
+    "fields": 9,
+    "correct": 9,
+    "accuracy": 1.0
+   }
+  },
+  "invented_fields": 0,
+  "extraction_cases_fully_correct": "31/31",
+  "correction_success": "10/10",
+  "intent_success_all": "16/16",
+  "danger_recall": {
+   "expected_positive": 16,
+   "missed": 0,
+   "recall": 1.0
+  },
+  "danger_false_positives": 0,
+  "danger_cases_fully_correct": "18/18",
+  "median_processing_ms": 1.52
+ },
+ "results": [
+  {
+   "id": "E01",
+   "language": "en",
+   "category": "anc",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "ANC checkup for beneficiary 1024. Weight is 52 kilos. TT injection recorded. IFA goli given. Next visit is on 20 November.",
+   "result": {
+    "n_fields": 6,
+    "n_correct": 6,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1024",
+     "beneficiary_name": "Sunita Devi",
+     "weight_kg": 52.0,
+     "vaccinations_given": [
+      "TT/Td"
+     ],
+     "ifa_tablets_given": true,
+     "next_visit_date": "2026-11-20"
+    },
+    "ok": true,
+    "ms": 65.1
+   }
+  },
+  {
+   "id": "E02",
+   "language": "hi",
+   "category": "anc",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "लाभार्थी आईडी एक शून्य दो चार, एएनसी चेकअप, वज़न बावन किलो, टीटी का इंजेक्शन लगा, आयरन की गोली दी, अगली विज़िट बीस नवंबर",
+   "result": {
+    "n_fields": 6,
+    "n_correct": 6,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1024",
+     "beneficiary_name": "Sunita Devi",
+     "weight_kg": 52.0,
+     "vaccinations_given": [
+      "TT/Td"
+     ],
+     "ifa_tablets_given": true,
+     "next_visit_date": "2026-11-20"
+    },
+    "ok": true,
+    "ms": 2.18
+   }
+  },
+  {
+   "id": "E03",
+   "language": "hi-en",
+   "category": "anc",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "Beneficiary 1050 ka ANC checkup hua, vajan 61 kilo, IFA goli di, TT 2 lag gaya, agli visit 2 December",
+   "result": {
+    "n_fields": 6,
+    "n_correct": 6,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1050",
+     "beneficiary_name": "Anjali Sharma",
+     "weight_kg": 61.0,
+     "vaccinations_given": [
+      "TT/Td-2"
+     ],
+     "ifa_tablets_given": true,
+     "next_visit_date": "2026-12-02"
+    },
+    "ok": true,
+    "ms": 1.76
+   }
+  },
+  {
+   "id": "E04",
+   "language": "kn",
+   "category": "anc",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "ಫಲಾನುಭವಿ ಸಂಖ್ಯೆ 1007, ಎಎನ್‌ಸಿ ಭೇಟಿ, ತೂಕ ಐವತ್ತೆರಡು ಕೆಜಿ, ಐಎಫ್‌ಎ ಮಾತ್ರೆ ಕೊಟ್ಟಿದೆ, ಮುಂದಿನ ಭೇಟಿ ನವೆಂಬರ್ 25",
+   "result": {
+    "n_fields": 5,
+    "n_correct": 5,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1007",
+     "beneficiary_name": "Lakshmi Gowda",
+     "weight_kg": 52.0,
+     "ifa_tablets_given": true,
+     "next_visit_date": "2026-11-25"
+    },
+    "ok": true,
+    "ms": 1.73
+   }
+  },
+  {
+   "id": "E05",
+   "language": "kn-en",
+   "category": "anc",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "Beneficiary ID 1012, ANC checkup aaytu, weight 48 kg, TT injection kottide, next visit ನಾಳೆ",
+   "result": {
+    "n_fields": 5,
+    "n_correct": 5,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1012",
+     "beneficiary_name": "Kavya Naik",
+     "weight_kg": 48.0,
+     "vaccinations_given": [
+      "TT/Td"
+     ],
+     "next_visit_date": "2026-11-12"
+    },
+    "ok": true,
+    "ms": 1.74
+   }
+  },
+  {
+   "id": "E06",
+   "language": "en",
+   "category": "pnc",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "PNC visit for beneficiary 1019, weight 55.5 kg, IFA tablets given, next visit next Monday",
+   "result": {
+    "n_fields": 5,
+    "n_correct": 5,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "PNC",
+     "beneficiary_id": "1019",
+     "beneficiary_name": "Rekha Patil",
+     "weight_kg": 55.5,
+     "ifa_tablets_given": true,
+     "next_visit_date": "2026-11-16"
+    },
+    "ok": true,
+    "ms": 1.62
+   }
+  },
+  {
+   "id": "E07",
+   "language": "hi",
+   "category": "pnc",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "डिलीवरी के बाद की विज़िट, आईडी 1063, वज़न पचपन किलो, अगली विज़िट परसों",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "PNC",
+     "beneficiary_id": "1063",
+     "beneficiary_name": "Meena Kumari",
+     "weight_kg": 55.0,
+     "next_visit_date": "2026-11-13"
+    },
+    "ok": true,
+    "ms": 1.48
+   }
+  },
+  {
+   "id": "E08",
+   "language": "hi-en",
+   "category": "newborn",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "Newborn visit, beneficiary 1042, baby ka weight do point aath kilo, BCG aur OPV zero diya, Penta 1 due hai, agli visit ek hafte baad",
+   "result": {
+    "n_fields": 6,
+    "n_correct": 6,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "NEWBORN",
+     "beneficiary_id": "1042",
+     "beneficiary_name": "Baby of Rekha Patil",
+     "weight_kg": 2.8,
+     "vaccinations_given": [
+      "BCG",
+      "OPV-0"
+     ],
+     "vaccinations_due": [
+      "Pentavalent-1"
+     ],
+     "next_visit_date": "2026-11-18"
+    },
+    "ok": true,
+    "ms": 2.02
+   }
+  },
+  {
+   "id": "E09",
+   "language": "en",
+   "category": "newborn",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "Newborn visit for ID 1064, weight 2800 grams, hepatitis B given, next visit in 7 days",
+   "result": {
+    "n_fields": 5,
+    "n_correct": 5,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "NEWBORN",
+     "beneficiary_id": "1064",
+     "beneficiary_name": "Baby of Meena Kumari",
+     "weight_kg": 2.8,
+     "vaccinations_given": [
+      "Hepatitis B"
+     ],
+     "next_visit_date": "2026-11-18"
+    },
+    "ok": true,
+    "ms": 1.85
+   }
+  },
+  {
+   "id": "E10",
+   "language": "kn",
+   "category": "newborn",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "ನವಜಾತ ಶಿಶು ಭೇಟಿ, ಐಡಿ 1103, ತೂಕ ಎರಡೂವರೆ ಕೆಜಿ, ಬಿಸಿಜಿ ಹಾಕಲಾಗಿದೆ",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "NEWBORN",
+     "beneficiary_id": "1103",
+     "beneficiary_name": "Baby of Ritu Singh",
+     "weight_kg": 2.5,
+     "vaccinations_given": [
+      "BCG"
+     ]
+    },
+    "ok": true,
+    "ms": 1.53
+   }
+  },
+  {
+   "id": "E11",
+   "language": "hi",
+   "category": "newborn",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "नवजात शिशु विज़िट, आईडी 1042, वज़न ढाई किलो, अगली विज़िट 14 तारीख",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "NEWBORN",
+     "beneficiary_id": "1042",
+     "beneficiary_name": "Baby of Rekha Patil",
+     "weight_kg": 2.5,
+     "next_visit_date": "2026-11-14"
+    },
+    "ok": true,
+    "ms": 1.49
+   }
+  },
+  {
+   "id": "E12",
+   "language": "en",
+   "category": "immunisation",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "Immunisation visit for beneficiary 1081, Penta 2 and Rota 2 given, OPV 2 given, MR due, weight 6.2 kg, next date 9 December",
+   "result": {
+    "n_fields": 6,
+    "n_correct": 6,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "IMMUNISATION",
+     "beneficiary_id": "1081",
+     "beneficiary_name": "Arjun (child of Shilpa)",
+     "weight_kg": 6.2,
+     "vaccinations_given": [
+      "OPV-2",
+      "Pentavalent-2",
+      "Rotavirus-2"
+     ],
+     "vaccinations_due": [
+      "MR"
+     ],
+     "next_visit_date": "2026-12-09"
+    },
+    "ok": true,
+    "ms": 2.02
+   }
+  },
+  {
+   "id": "E13",
+   "language": "hi-en",
+   "category": "immunisation",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "Teekakaran visit, ID 1125, measles ka tika laga, vitamin A diya, vajan saadhe aath kilo",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "IMMUNISATION",
+     "beneficiary_id": "1125",
+     "beneficiary_name": "Priya (child of Geeta)",
+     "weight_kg": 8.5,
+     "vaccinations_given": [
+      "MR",
+      "Vitamin A"
+     ]
+    },
+    "ok": true,
+    "ms": 1.81
+   }
+  },
+  {
+   "id": "E14",
+   "language": "en",
+   "category": "ids",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "ANC for beneficiary one zero five zero, weight fifty eight kilo",
+   "result": {
+    "n_fields": 3,
+    "n_correct": 3,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1050",
+     "beneficiary_name": "Anjali Sharma",
+     "weight_kg": 58.0
+    },
+    "ok": true,
+    "ms": 1.44
+   }
+  },
+  {
+   "id": "E15",
+   "language": "hi",
+   "category": "ids",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "लाभार्थी नंबर एक हज़ार उनसठ नहीं, एक शून्य नौ शून्य, एएनसी, वज़न चौवन किलो",
+   "result": {
+    "n_fields": 3,
+    "n_correct": 3,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1090",
+     "beneficiary_name": "Fatima Begum",
+     "weight_kg": 54.0
+    },
+    "ok": true,
+    "ms": 1.59
+   }
+  },
+  {
+   "id": "E16",
+   "language": "en",
+   "category": "ids",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "ID ten fifteen, ANC visit, weight sixty point five kilo",
+   "result": {
+    "n_fields": 3,
+    "n_correct": 3,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1015",
+     "beneficiary_name": "Pooja Yadav",
+     "weight_kg": 60.5
+    },
+    "ok": true,
+    "ms": 1.47
+   }
+  },
+  {
+   "id": "E17",
+   "language": "en",
+   "category": "decimal",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "Newborn visit 1103 weight two point nine five kg",
+   "result": {
+    "n_fields": 3,
+    "n_correct": 3,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "NEWBORN",
+     "beneficiary_id": "1103",
+     "beneficiary_name": "Baby of Ritu Singh",
+     "weight_kg": 2.95
+    },
+    "ok": true,
+    "ms": 1.36
+   }
+  },
+  {
+   "id": "E18",
+   "language": "hi-en",
+   "category": "decimal",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "PNC visit 1102, weight sava pachas nahi, pachas point do kilo",
+   "result": {
+    "n_fields": 3,
+    "n_correct": 3,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "PNC",
+     "beneficiary_id": "1102",
+     "beneficiary_name": "Ritu Singh",
+     "weight_kg": 50.2
+    },
+    "ok": true,
+    "ms": 1.5
+   }
+  },
+  {
+   "id": "E19",
+   "language": "en",
+   "category": "names",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "Sunita Kumari, ANC visit, weight 49 kg",
+   "result": {
+    "n_fields": 3,
+    "n_correct": 3,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_name": "Sunita Kumari",
+     "weight_kg": 49.0
+    },
+    "ok": true,
+    "ms": 1.26
+   }
+  },
+  {
+   "id": "E20",
+   "language": "hi-en",
+   "category": "names",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "Sunita ka ANC checkup, weight 50 kilo",
+   "result": {
+    "n_fields": 2,
+    "n_correct": 2,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_name": "Sunita",
+     "weight_kg": 50.0
+    },
+    "ok": true,
+    "ms": 1.35
+   }
+  },
+  {
+   "id": "E21",
+   "language": "en",
+   "category": "dates",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "ANC 1077 weight 63 kg, next visit after 15 days",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1077",
+     "beneficiary_name": "Shilpa Hegde",
+     "weight_kg": 63.0,
+     "next_visit_date": "2026-11-26"
+    },
+    "ok": true,
+    "ms": 1.35
+   }
+  },
+  {
+   "id": "E22",
+   "language": "hi",
+   "category": "dates",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "एएनसी, आईडी 1118, अगली विज़िट अगले सोमवार",
+   "result": {
+    "n_fields": 3,
+    "n_correct": 3,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1118",
+     "beneficiary_name": "Geeta Rao",
+     "next_visit_date": "2026-11-16"
+    },
+    "ok": true,
+    "ms": 3.18
+   }
+  },
+  {
+   "id": "E23",
+   "language": "en",
+   "category": "missing",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "weight 50 kilo",
+   "result": {
+    "n_fields": 1,
+    "n_correct": 1,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "weight_kg": 50.0
+    },
+    "ok": true,
+    "ms": 2.35
+   }
+  },
+  {
+   "id": "E24",
+   "language": "en",
+   "category": "missing",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "ANC visit for 1130, IFA given",
+   "result": {
+    "n_fields": 3,
+    "n_correct": 3,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1130",
+     "beneficiary_name": "Savitri Bai",
+     "ifa_tablets_given": true
+    },
+    "ok": true,
+    "ms": 1.54
+   }
+  },
+  {
+   "id": "E25",
+   "language": "hi-en",
+   "category": "medterms",
+   "noise": "clean",
+   "context": "",
+   "kind": "extract",
+   "utterance": "1015 ka ANC, MCP card check kiya, IFA goli nahi di, TT booster lagna hai",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1015",
+     "beneficiary_name": "Pooja Yadav",
+     "vaccinations_due": [
+      "TT/Td booster"
+     ],
+     "ifa_tablets_given": false
+    },
+    "ok": true,
+    "ms": 1.62
+   }
+  },
+  {
+   "id": "N01",
+   "language": "hi-en",
+   "category": "anc",
+   "noise": "noisy",
+   "context": "",
+   "kind": "extract",
+   "utterance": "umm haan toh beneficiary uh 1024 ka ANC checkup arre beta chup karo weight weight 52 kilo TT injection lag gaya next visit 20 November",
+   "result": {
+    "n_fields": 5,
+    "n_correct": 5,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1024",
+     "beneficiary_name": "Sunita Devi",
+     "weight_kg": 52.0,
+     "vaccinations_given": [
+      "TT/Td"
+     ],
+     "next_visit_date": "2026-11-20"
+    },
+    "ok": true,
+    "ms": 1.8
+   }
+  },
+  {
+   "id": "N02",
+   "language": "en",
+   "category": "newborn",
+   "noise": "noisy",
+   "context": "",
+   "kind": "extract",
+   "utterance": "newborn visit for for beneficiary 1042 the TV is on weight is uh 2.8 kilo BCG given",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "NEWBORN",
+     "beneficiary_id": "1042",
+     "beneficiary_name": "Baby of Rekha Patil",
+     "weight_kg": 2.8,
+     "vaccinations_given": [
+      "BCG"
+     ]
+    },
+    "ok": true,
+    "ms": 1.6
+   }
+  },
+  {
+   "id": "N03",
+   "language": "hi",
+   "category": "anc",
+   "noise": "noisy",
+   "context": "",
+   "kind": "extract",
+   "utterance": "अच्छा सुनो लाभार्थी आईडी 1050 एएनसी वजन इकसठ किलो हाँ इकसठ आयरन की गोली दी",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1050",
+     "beneficiary_name": "Anjali Sharma",
+     "weight_kg": 61.0,
+     "ifa_tablets_given": true
+    },
+    "ok": true,
+    "ms": 1.59
+   }
+  },
+  {
+   "id": "N04",
+   "language": "kn-en",
+   "category": "pnc",
+   "noise": "noisy",
+   "context": "",
+   "kind": "extract",
+   "utterance": "ಸರಿ ಸರಿ PNC visit beneficiary 1019 ಹಾ weight 56 kg next visit ನವೆಂಬರ್ 30",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "PNC",
+     "beneficiary_id": "1019",
+     "beneficiary_name": "Rekha Patil",
+     "weight_kg": 56.0,
+     "next_visit_date": "2026-11-30"
+    },
+    "ok": true,
+    "ms": 1.49
+   }
+  },
+  {
+   "id": "N05",
+   "language": "hi-en",
+   "category": "immunisation",
+   "noise": "noisy",
+   "context": "",
+   "kind": "extract",
+   "utterance": "immunisation hai ji 1081 penta teen diya bachcha ro raha tha weight saat kilo",
+   "result": {
+    "n_fields": 4,
+    "n_correct": 4,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "IMMUNISATION",
+     "beneficiary_id": "1081",
+     "beneficiary_name": "Arjun (child of Shilpa)",
+     "weight_kg": 7.0,
+     "vaccinations_given": [
+      "Pentavalent-3"
+     ]
+    },
+    "ok": true,
+    "ms": 1.66
+   }
+  },
+  {
+   "id": "N06",
+   "language": "en",
+   "category": "anc",
+   "noise": "noisy",
+   "context": "",
+   "kind": "extract",
+   "utterance": "ok so ANC ANC visit beneficiary 1012 weight 47 47 kg ifa given next visit tomorrow",
+   "result": {
+    "n_fields": 5,
+    "n_correct": 5,
+    "wrong": {},
+    "invented": [],
+    "notes_ok": true,
+    "got": {
+     "visit_type": "ANC",
+     "beneficiary_id": "1012",
+     "beneficiary_name": "Kavya Naik",
+     "weight_kg": 47.0,
+     "ifa_tablets_given": true,
+     "next_visit_date": "2026-11-12"
+    },
+    "ok": true,
+    "ms": 1.58
+   }
+  },
+  {
+   "id": "C01",
+   "language": "en",
+   "category": "correction",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "No, weight is 54 kilos",
+   "result": {
+    "ok": true,
+    "kind": "PATCH",
+    "value": 54.0,
+    "ms": 9.99
+   }
+  },
+  {
+   "id": "C02",
+   "language": "en",
+   "category": "correction",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "no, weight is 2.8 kilo",
+   "result": {
+    "ok": true,
+    "kind": "PATCH",
+    "value": 2.8,
+    "ms": 1.59
+   }
+  },
+  {
+   "id": "C03",
+   "language": "hi",
+   "category": "correction",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "नहीं, वज़न चौवन किलो है",
+   "result": {
+    "ok": true,
+    "kind": "PATCH",
+    "value": 54.0,
+    "ms": 1.54
+   }
+  },
+  {
+   "id": "C04",
+   "language": "hi-en",
+   "category": "correction",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "ID galat hai, 1025 hai",
+   "result": {
+    "ok": true,
+    "kind": "PATCH",
+    "value": "1025",
+    "ms": 1.59
+   }
+  },
+  {
+   "id": "C05",
+   "language": "en",
+   "category": "correction",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "No, it is a PNC visit",
+   "result": {
+    "ok": true,
+    "kind": "PATCH",
+    "value": "PNC",
+    "ms": 1.52
+   }
+  },
+  {
+   "id": "C06",
+   "language": "hi-en",
+   "category": "correction",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "next visit 22 November karo",
+   "result": {
+    "ok": true,
+    "kind": "PATCH",
+    "value": "2026-11-22",
+    "ms": 1.55
+   }
+  },
+  {
+   "id": "C07",
+   "language": "kn",
+   "category": "correction",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "ಇಲ್ಲ, ತೂಕ ಐವತ್ನಾಲ್ಕು ಕೆಜಿ",
+   "result": {
+    "ok": true,
+    "kind": "PATCH",
+    "value": 54.0,
+    "ms": 1.6
+   }
+  },
+  {
+   "id": "C08",
+   "language": "en",
+   "category": "correction",
+   "noise": "clean",
+   "context": "weight_kg",
+   "kind": "correct",
+   "utterance": "No, 54",
+   "result": {
+    "ok": true,
+    "kind": "BARE",
+    "target": "weight_kg",
+    "ms": 1.45
+   }
+  },
+  {
+   "id": "C09",
+   "language": "en",
+   "category": "correction",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "No, 54",
+   "result": {
+    "ok": true,
+    "kind": "BARE",
+    "target": null,
+    "ms": 1.52
+   }
+  },
+  {
+   "id": "C10",
+   "language": "hi-en",
+   "category": "correction",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "OPV nahi diya",
+   "result": {
+    "ok": true,
+    "kind": "PATCH",
+    "ms": 1.66
+   }
+  },
+  {
+   "id": "C11",
+   "language": "en",
+   "category": "undo",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "undo that",
+   "result": {
+    "ok": true,
+    "kind": "UNDO",
+    "ms": 0.11
+   }
+  },
+  {
+   "id": "C12",
+   "language": "hi",
+   "category": "undo",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "पहले वाला करो",
+   "result": {
+    "ok": true,
+    "kind": "UNDO",
+    "ms": 0.08
+   }
+  },
+  {
+   "id": "C13",
+   "language": "hi",
+   "category": "confirm",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "हाँ, सही है",
+   "result": {
+    "ok": true,
+    "kind": "YES",
+    "ms": 4.66
+   }
+  },
+  {
+   "id": "C14",
+   "language": "kn",
+   "category": "confirm",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "ಹೌದು ಸರಿ",
+   "result": {
+    "ok": true,
+    "kind": "YES",
+    "ms": 1.94
+   }
+  },
+  {
+   "id": "C15",
+   "language": "hi-en",
+   "category": "confirm",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "sahi nahi hai",
+   "result": {
+    "ok": true,
+    "kind": "NO",
+    "ms": 1.54
+   }
+  },
+  {
+   "id": "C16",
+   "language": "hi-en",
+   "category": "guardrail",
+   "noise": "clean",
+   "context": "",
+   "kind": "correct",
+   "utterance": "bukhar ke liye kaunsi dawai du?",
+   "result": {
+    "ok": true,
+    "kind": "ADVICE",
+    "ms": 0.08
+   }
+  },
+  {
+   "id": "D01",
+   "language": "hi-en",
+   "category": "danger_pos",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "ANC visit 1024, bleeding ho rahi hai",
+   "result": {
+    "ok": true,
+    "positive": [
+     "PREG_BLEEDING"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "PREG_BLEEDING"
+    ],
+    "ms": 2.41
+   }
+  },
+  {
+   "id": "D02",
+   "language": "hi",
+   "category": "danger_pos",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "गर्भवती को खून आ रहा है",
+   "result": {
+    "ok": true,
+    "positive": [
+     "PREG_BLEEDING"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "PREG_BLEEDING"
+    ],
+    "ms": 0.13
+   }
+  },
+  {
+   "id": "D03",
+   "language": "hi-en",
+   "category": "danger_pos",
+   "noise": "clean",
+   "context": "NEWBORN",
+   "kind": "danger",
+   "utterance": "Newborn 1042, baby ko tez bukhar hai",
+   "result": {
+    "ok": true,
+    "positive": [
+     "NB_FEVER_OR_COLD"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "NB_FEVER_OR_COLD"
+    ],
+    "ms": 0.16
+   }
+  },
+  {
+   "id": "D04",
+   "language": "kn",
+   "category": "danger_pos",
+   "noise": "clean",
+   "context": "NEWBORN",
+   "kind": "danger",
+   "utterance": "ಮಗುವಿಗೆ ಜ್ವರ ಇದೆ, ಹಾಲು ಕುಡಿಯುತ್ತಿಲ್ಲ",
+   "result": {
+    "ok": true,
+    "positive": [
+     "NB_FEVER_OR_COLD",
+     "NB_POOR_FEEDING"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "NB_FEVER_OR_COLD",
+     "NB_POOR_FEEDING"
+    ],
+    "ms": 0.19
+   }
+  },
+  {
+   "id": "D05",
+   "language": "en",
+   "category": "danger_pos",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "She has blurred vision and fits since morning",
+   "result": {
+    "ok": true,
+    "positive": [
+     "CONVULSIONS",
+     "PREG_HEADACHE_BLURRED_VISION"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "CONVULSIONS",
+     "PREG_HEADACHE_BLURRED_VISION"
+    ],
+    "ms": 0.14
+   }
+  },
+  {
+   "id": "D06",
+   "language": "hi-en",
+   "category": "danger_pos",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "paani ki thaili phat gayi aur bachcha kam hil raha hai",
+   "result": {
+    "ok": true,
+    "positive": [
+     "PREG_REDUCED_FETAL_MOVEMENT",
+     "PREG_WATER_BREAK"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "PREG_REDUCED_FETAL_MOVEMENT",
+     "PREG_WATER_BREAK"
+    ],
+    "ms": 0.14
+   }
+  },
+  {
+   "id": "D07",
+   "language": "hi",
+   "category": "danger_pos",
+   "noise": "clean",
+   "context": "PNC",
+   "kind": "danger",
+   "utterance": "डिलीवरी के बाद बहुत ज़्यादा खून जा रहा है",
+   "result": {
+    "ok": true,
+    "positive": [
+     "PNC_EXCESSIVE_BLEEDING"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "PNC_EXCESSIVE_BLEEDING"
+    ],
+    "ms": 0.14
+   }
+  },
+  {
+   "id": "D08",
+   "language": "en",
+   "category": "danger_pos",
+   "noise": "clean",
+   "context": "NEWBORN",
+   "kind": "danger",
+   "utterance": "baby has yellow palms and soles and is very lethargic",
+   "result": {
+    "ok": true,
+    "positive": [
+     "NB_LETHARGIC_UNCONSCIOUS",
+     "NB_YELLOW_SKIN"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "NB_LETHARGIC_UNCONSCIOUS",
+     "NB_YELLOW_SKIN"
+    ],
+    "ms": 0.14
+   }
+  },
+  {
+   "id": "D09",
+   "language": "hi-en",
+   "category": "danger_pos",
+   "noise": "noisy",
+   "context": "NEWBORN",
+   "kind": "danger",
+   "utterance": "arre haan baby ko saans lene mein dikkat hai uh pasli chal rahi hai",
+   "result": {
+    "ok": true,
+    "positive": [
+     "NB_DIFFICULT_BREATHING"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "NB_DIFFICULT_BREATHING"
+    ],
+    "ms": 0.14
+   }
+  },
+  {
+   "id": "D10",
+   "language": "hi-en",
+   "category": "danger_pos",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "bleeding ruk nahi rahi",
+   "result": {
+    "ok": true,
+    "positive": [
+     "PREG_BLEEDING"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "PREG_BLEEDING"
+    ],
+    "ms": 0.1
+   }
+  },
+  {
+   "id": "D11",
+   "language": "hi-en",
+   "category": "danger_neg",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "ANC visit, bleeding nahi hai, bukhar bhi nahi hai",
+   "result": {
+    "ok": true,
+    "positive": [],
+    "uncertain": [],
+    "negated": [
+     "CHILD_HIGH_FEVER",
+     "MATERNAL_HIGH_FEVER",
+     "NB_FEVER_OR_COLD",
+     "PREG_BLEEDING"
+    ],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [],
+    "ms": 0.17
+   }
+  },
+  {
+   "id": "D12",
+   "language": "kn",
+   "category": "danger_neg",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "ರಕ್ತಸ್ರಾವ ಇಲ್ಲ, ಜ್ವರ ಇಲ್ಲ",
+   "result": {
+    "ok": true,
+    "positive": [],
+    "uncertain": [],
+    "negated": [
+     "CHILD_HIGH_FEVER",
+     "MATERNAL_HIGH_FEVER",
+     "NB_FEVER_OR_COLD",
+     "PREG_BLEEDING"
+    ],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [],
+    "ms": 0.13
+   }
+  },
+  {
+   "id": "D13",
+   "language": "en",
+   "category": "danger_neg",
+   "noise": "clean",
+   "context": "NEWBORN",
+   "kind": "danger",
+   "utterance": "no fever, baby is feeding well",
+   "result": {
+    "ok": true,
+    "positive": [],
+    "uncertain": [],
+    "negated": [
+     "CHILD_HIGH_FEVER",
+     "MATERNAL_HIGH_FEVER",
+     "NB_FEVER_OR_COLD"
+    ],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [],
+    "ms": 0.13
+   }
+  },
+  {
+   "id": "D14",
+   "language": "hi",
+   "category": "danger_neg",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "खून की जांच हुई, रिपोर्ट ठीक है",
+   "result": {
+    "ok": true,
+    "positive": [],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [],
+    "ms": 0.1
+   }
+  },
+  {
+   "id": "D15",
+   "language": "hi-en",
+   "category": "danger_unc",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "bukhar hai",
+   "result": {
+    "ok": true,
+    "positive": [],
+    "uncertain": [
+     "MATERNAL_HIGH_FEVER"
+    ],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [],
+    "ms": 0.1
+   }
+  },
+  {
+   "id": "D16",
+   "language": "hi-en",
+   "category": "danger_unc",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "pata nahi bleeding hai ya nahi",
+   "result": {
+    "ok": true,
+    "positive": [],
+    "uncertain": [
+     "PREG_BLEEDING"
+    ],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [],
+    "ms": 0.14
+   }
+  },
+  {
+   "id": "D17",
+   "language": "hi-en",
+   "category": "danger_unc",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "pichhli pregnancy mein bleeding hui thi",
+   "result": {
+    "ok": true,
+    "positive": [],
+    "uncertain": [
+     "PREG_BLEEDING"
+    ],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [],
+    "ms": 0.13
+   }
+  },
+  {
+   "id": "D18",
+   "language": "hi-en",
+   "category": "danger_multi",
+   "noise": "clean",
+   "context": "ANC",
+   "kind": "danger",
+   "utterance": "khoon aa raha hai aur tez bukhar bhi hai",
+   "result": {
+    "ok": true,
+    "positive": [
+     "MATERNAL_HIGH_FEVER",
+     "PREG_BLEEDING"
+    ],
+    "uncertain": [],
+    "negated": [],
+    "missed": [],
+    "false_positive": [],
+    "expected_positive": [
+     "MATERNAL_HIGH_FEVER",
+     "PREG_BLEEDING"
+    ],
+    "ms": 0.17
+   }
+  }
+ ]
+}

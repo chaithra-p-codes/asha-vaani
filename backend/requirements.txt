@@ -1,0 +1,9 @@
+# ASHA Vaani backend (Python 3.10+). Tested in the build sandbox with: starlette 1.7.0,
+# pydantic 2.13.5, cryptography 50.0.1, python-dotenv, uvicorn 0.54.0 (Python 3.13).
+starlette>=0.40
+uvicorn[standard]>=0.30      # includes the `websockets` server backend for the visit WebSocket
+websockets>=13.1             # outbound client to Gnani Prisma/Timbre (asyncio client API)
+pydantic>=2.6
+cryptography>=42
+python-dotenv>=1.0
+tzdata>=2024.1               # timezone data for Windows (zoneinfo)

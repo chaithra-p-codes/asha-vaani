@@ -1,0 +1,19 @@
+# secrets
+.env
+backend/.env
+*.key
+backend/data/
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# node
+node_modules/
+# os/editor
+.DS_Store
+.vscode/
+.idea/
+# evaluation outputs with live transcripts
+evaluation/results_live*.json
