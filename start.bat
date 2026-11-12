@@ -11,4 +11,4 @@ if not exist frontend\dist\index.html (
 )
 echo Open http://localhost:8000  (phones need HTTPS: see README "Test on a phone")
 cd backend
-uvicorn app.main:app --host 0.0.0.0 --port 8000
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8000

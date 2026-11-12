@@ -7,7 +7,7 @@ import { LANGUAGES, lang, setLang, tr, trf } from "../i18n.js";
 import { navigate } from "../router.js";
 import { prefs } from "../store.js";
 import { $, html, on, raw } from "../ui/dom.js";
-import { brandMark, icon } from "../ui/icons.js";
+import { logo, icon } from "../ui/icons.js";
 export function renderOnboarding(root, next = "/app") {
     let stepNo = 1;
     let chosen = lang();
@@ -21,7 +21,7 @@ export function renderOnboarding(root, next = "/app") {
     ${back ? raw(html `<button class="btn btn-ghost" data-action="back">${raw(icon("back"))}${tr("back")}</button>`) : raw("<span></span>")}
     <div class="chips">${raw(extra)}${raw(primary)}</div></div>`;
     const step1 = () => html `
-    <div class="onb-brand">${raw(brandMark())}<span class="wordmark-t">ASHA Vaani</span></div>
+    <div class="onb-brand">${raw(logo())}</div>
     <div class="grid-gap"><h1 class="h1" id="onb-h">${tr("onb1_title")}</h1><p class="muted">${tr("onb1_body")}</p></div>
     <section class="disclosure" aria-labelledby="ai-h">
       <h2 class="h3" id="ai-h">${raw(icon("info"))}${tr("ai_title")}</h2>

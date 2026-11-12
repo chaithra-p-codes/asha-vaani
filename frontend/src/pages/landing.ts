@@ -3,7 +3,7 @@
 import { langSelect } from "../components/shell.js";
 import { Lang, setLang, tr } from "../i18n.js";
 import { html, raw } from "../ui/dom.js";
-import { brandMark, icon, IconName } from "../ui/icons.js";
+import { logo, icon, IconName } from "../ui/icons.js";
 
 export function renderLanding(root: HTMLElement, rerender: () => void): () => void {
   const navLinks = () => html`<a href="#top">${tr("l_nav_home")}</a><a href="#how">${tr("l_nav_how")}</a>
@@ -24,7 +24,7 @@ export function renderLanding(root: HTMLElement, rerender: () => void): () => vo
   <a class="sr-only skip" href="#main">${tr("skip_content")}</a>
   <header class="site-header" id="site-header">
     <div class="site bar">
-      <a class="wordmark" href="/" aria-label="ASHA Vaani">${raw(brandMark())}<span>ASHA Vaani</span></a>
+      <a class="wordmark" href="/" aria-label="ASHA Vaani">${raw(logo())}</a>
       <nav class="site-nav" aria-label="${tr("nav_main")}">${raw(navLinks())}</nav>
       <div class="right">
         <span class="hide-sm">${raw(langSelect("site-lang"))}</span>
@@ -109,7 +109,7 @@ export function renderLanding(root: HTMLElement, rerender: () => void): () => vo
 
   <footer class="site-footer"><div class="site">
     <div class="cols">
-      <div><a class="wordmark" href="/">${raw(brandMark())}<span>ASHA Vaani</span></a><p style="margin-top:10px">${tr("tagline")}</p></div>
+      <div><a class="wordmark" href="/">${raw(logo())}</a><p style="margin-top:10px">${tr("tagline")}</p></div>
       <div><h4>${tr("footer_product")}</h4><a href="#how">${tr("l_nav_how")}</a><a href="#features">${tr("l_nav_features")}</a>
         <a href="#impact">${tr("l_nav_impact")}</a><a href="/app">${tr("footer_open")}</a></div>
       <div><h4>${tr("footer_privacy_t")}</h4><p>${tr("footer_privacy")}</p></div>

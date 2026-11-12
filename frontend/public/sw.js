@@ -1,8 +1,8 @@
 /* ASHA Vaani service worker: caches the app shell only, so the PWA opens without
    network. API calls and the visit WebSocket are never cached - live Gnani speech
    processing needs a connection, and the UI says so instead of pretending. */
-const CACHE = "asha-vaani-shell-v2";
-const SHELL = ["/", "/styles.css", "/manifest.webmanifest", "/icons/icon.svg", "/audio/pcm-capture-worklet.js",
+const CACHE = "asha-vaani-shell-v3";
+const SHELL = ["/", "/styles.css", "/manifest.webmanifest", "/icons/icon.svg", "/icons/logo.png", "/audio/pcm-capture-worklet.js",
   "/assets/main.js"];
 
 self.addEventListener("install", (e) => {

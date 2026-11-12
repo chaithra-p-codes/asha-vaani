@@ -68,10 +68,5 @@ export function icon(name, label = "") {
 }
 /** Backwards-compatible accessor used across pages: icons.mic() etc. */
 export const icons = Object.fromEntries(Object.keys(P).map((k) => [k, (label = "") => svg(P[k], label)]));
-/** Brand mark: a register page with a speech bubble tail, drawn in the forest palette. */
-export const brandMark = () => `<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-  <rect width="32" height="32" rx="9" fill="#1F5B40"/>
-  <path d="M9 8.5h10.5a3 3 0 0 1 3 3v6.5a3 3 0 0 1-3 3H14l-3.6 3v-3H9a1.5 1.5 0 0 1-1.5-1.5V10A1.5 1.5 0 0 1 9 8.5Z" fill="#F4F1EA"/>
-  <path d="M11 12.5h7.5M11 15.5h5" stroke="#1F5B40" stroke-width="1.6" stroke-linecap="round"/>
-  <circle cx="23.5" cy="21.5" r="4.2" fill="#8FAE98" stroke="#1F5B40" stroke-width="1.4"/>
-  <path d="M23.5 19.6v2.4M22 21.6a1.5 1.5 0 0 0 3 0" stroke="#1F5B40" stroke-width="1.2" stroke-linecap="round" fill="none"/></svg>`;
+/** Brand logo: the full ASHA Vaani lockup (emblem, wordmark and tagline), served from /icons/logo.png. */
+export const logo = () => `<img class="logo" src="/icons/logo.png" alt="ASHA Vaani" width="986" height="224" decoding="async">`;

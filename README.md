@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/logo.png" alt="ASHA Vaani: voice-first field register for ASHA workers" width="460">
+</p>
+
 # ASHA Vaani — voice field register for ASHA workers
 
 **Gnani Voice Hackathon 2026 · PS1 Healthcare.** An ASHA worker speaks her home-visit notes in Hindi, Kannada or English (code-mixed is fine). ASHA Vaani fills the visit form, reads it back, accepts corrections by voice, flags danger signs from the MCP card list with a fixed "refer to PHC now" message, and saves the record only after she says yes. Then it gives her the next actions. No typing.

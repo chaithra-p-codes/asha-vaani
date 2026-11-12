@@ -4,7 +4,7 @@ import { LANGUAGES, lang, setLang, tr } from "../i18n.js";
 import { api } from "../services/api.js";
 import { serviceFromConfig, store } from "../store.js";
 import { esc, html, raw } from "../ui/dom.js";
-import { brandMark, icon } from "../ui/icons.js";
+import { logo, icon } from "../ui/icons.js";
 const NAV = [
     { name: "overview", href: "/app", ic: "overview", label: () => tr("nav_overview") },
     { name: "new-visit", href: "/app/new-visit", ic: "mic", label: () => tr("nav_new_visit") },
@@ -37,14 +37,14 @@ export function mountShell(root, onLangChange) {
     };
     root.innerHTML = html `<div class="app">
     <aside class="sidebar" aria-label="${tr("nav_main")}">
-      <a class="wordmark" href="/">${raw(brandMark())}<span>ASHA Vaani</span></a>
+      <a class="wordmark" href="/">${raw(logo())}</a>
       <nav class="side-nav" id="side-nav"></nav>
       <div class="side-foot"><span><span class="badge demo">${tr("demo_data")}</span></span><p>${tr("prototype_note")}</p></div>
     </aside>
     <div class="main">
       <header class="topbar no-print"><span class="crumb" id="crumb"></span>
         <div class="right"><span id="svc"></span>${raw(langSelect("ui-lang"))}</div></header>
-      <header class="m-header no-print"><a class="wordmark" href="/app">${raw(brandMark())}<span>ASHA Vaani</span></a>
+      <header class="m-header no-print"><a class="wordmark" href="/app">${raw(logo())}</a>
         <div class="right"><span id="svc-m"></span>${raw(langSelect("ui-lang-m"))}</div></header>
       <main class="content" id="content" tabindex="-1"></main>
     </div>
